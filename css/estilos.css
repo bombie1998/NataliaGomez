@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* BARRA DE NAVEGACION */
+
+nav{
+    background-color: rgba(235, 235, 235, 0.475);
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+
+}
+
+nav p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 100px;
+    width: 30%;
+    margin-left: 70px;
+    cursor: pointer;
+
+}
+
+nav p:hover{
+    color: rgb(14, 100, 14);
+    transition-duration: 1s;
+}
+
+nav li{
+    list-style: none;
+    line-height: 100px;
+    margin: 0 18px;
+    font-size: 17px;
+    
+}
+
+nav ul{
+    margin-right: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    
+    
+}
+
+nav a{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+    padding: 5px 10px;
+
+
+}
+
+nav a:hover{
+    color: rgb(14, 100, 14);
+    transition-duration: 1s;
+}
+
+
+
+
+/* PRIMER SECTION */
+
+.primersection{
+    display: flex;
+    
+}
+
+
+.presentacion{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion h1{
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 80px;
+    font-size: 100px; 
+    color: rgb(60, 60, 60);
+}
+
+.centrado{
+    margin-bottom: 60px;
+}
+
+
+.parrapresentacion{  
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(52, 52, 52);
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.doctora{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(52, 52, 52);
+    margin-top: 33px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+/* SEGUNDO SECTION */
+
+.segundosection{
+    background-color: rgb(222, 230, 226);
+}
+
+.segundocontenedor{
+    display: flex;
+    width: 100%;
+    height:700px;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.segundocontenedor .primeraparte{
+    margin-right: 40px;
+    margin-bottom: 300px;
+
+   
+}
+
+.segundocontenedor .primeraparte h2{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+}
+.segundocontenedor .primeraparte hr{
+    margin: 30px 0 45px 0;
+    width: 60px;
+    height: 1px;
+    border: 1px solid rgb(113, 113, 113);  
+}
+
+.segundocontenedor .primeraparte p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 22px;
+    
+}
+
+
+.segundocontenedor .segundaparte p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 16px;
+    line-height: 33px;
+
+}
+
+#btn-segundosection{
+    cursor: pointer;
+    width: 200px;
+    height: 43px;
+    background-color: rgb(143, 163, 155);
+    color: white;
+    border: none;
+}
+
+#btn-segundosection:hover{
+    background-color: rgb(4, 3, 3);
+    transition-duration: 1s;
+    color: white;
+}
+
+/* TERCER SECTION */
+
+.tercersection{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+}
+
+.informacion{
+    width: 100%;
+    height: 921px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafos{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    display: flex;
+    margin: 40px 0;
+}
+
+.telefonos{
+    margin-left: 120px;
+}
+
+.centrado2 hr{
+    margin: 35px 0;
+    width: 60px;
+    height: 0.6px;
+    border: 0.5px solid  rgb(164, 164, 164);
+
+}
+
+.centrado2 .pepe{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 30px;
+}
+
+.centrado2 p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    line-height: 28px;
+}
+
+#btn-nombre{
+    padding-left: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    width: 220px;
+    border: none;
+    height: 40px;
+    margin-bottom: 12px;
+    outline: none;
+
+}
+
+#btn-nombre:hover{
+    background-color: rgb(226, 245, 247);
+    color: black;
+}
+
+#btn-email{padding-left: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    margin-left: 25px;
+    border: none;
+    height: 40px;
+    width: 220px;
+    outline: none;
+    
+}
+
+#btn-email:hover{
+    background-color: rgb(226, 245, 247);
+    color: black;
+}
+
+#btn-mensaje{padding-left: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    border: none;
+    height: 150px;
+    width: 470px;
+    margin-bottom: 12px;
+    padding-bottom: 110px;
+    outline: none;  
+    resize: none;
+}
+
+#btn-mensaje:hover{
+    background-color: rgb(226, 245, 247);
+    color: black;
+}
+
+
+
+#btn-enviar{
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    border: none;
+    width: 470px;
+    background-color: rgb(143, 163, 155);
+
+}
+
+
+#btn-enviar:hover{
+    background-color: rgb(4, 3, 3);
+    transition-duration: 1s;
+    color: white;
+}
+
+/* PIE DE PAGINA */
+
+footer{
+    width: 100%;
+    background-color: rgb(65, 72, 69);
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(240, 240, 240);
+}
+
+
+/* SEGUNDA PAGINA */
+
+.informacionn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centrado22 .orientacion{
+    margin-top: 120px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 22px;
+}
+
+.centrado22 .orientacion2{
+    margin-top: 70px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 22px;
+}
+
+.centrado22 p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    line-height: 33px;
+}
+
+.centrado22 hr{
+    margin: 30px 0;
+    width: 50px;
+    height: 1px;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.centrado22 .especializacion{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size:35px;
+    margin-top: 120px;
+    
+}
+
+.centrado2 .textopepe{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    line-height: 32px;
+    font-size: 15px;
+}
+
+/* SEGUNDO SECTION SEGUNDA PAGINA */
+
+.tercersection2{
+    display: flex;
+}
+
+
+
+
